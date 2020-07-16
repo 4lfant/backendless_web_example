@@ -44,9 +44,15 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void initBackendless() {
-    Backendless.initApp("6B96D42A-58F4-5AC6-FFA4-BDE0AA0E3200", 
-    "72DF4D5A-B87A-4758-8FE7-745E02805A02", "89AD1B88-C414-4EE4-9E89-40AFD1F9D285");
-    Backendless.initWebApp("6B96D42A-58F4-5AC6-FFA4-BDE0AA0E3200", "0CB08A50-66E9-431A-89F6-B7A7AC90CD32");
+    Backendless.initApp(
+      YOUR_APP_ID, 
+      YOUR_ANDROID_KEY, 
+      YOUR_IOS_KEY
+    );
+    Backendless.initWebApp(
+      YOUR_APP_ID, 
+      YOUR_JS_KEY
+    );
   }
 
   void saveObject() async {
