@@ -1,16 +1,15 @@
 # backendless_web_example
 
-A new Flutter project.
+Backendless Flutter application that supports both mobile and web platforms.
 
-## Getting Started
+Please follow the [instructions](https://github.com/Backendless/Flutter-SDK#enable-web-support) to configure your environment for web support. Then open the project and specify your Application ID and API Keys.
 
-This project is a starting point for a Flutter application.
+The application itself has two options:
 
-A few resources to get you started if this is your first Flutter project:
+1. Save the object
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Press the first button to save the simple object to the 'TestTable' table and display the result.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Subscribe to message channel
+
+Press the second button to subscribe to the message channel and then send the message to the 'default' channel through Console. The message will be displayed.
