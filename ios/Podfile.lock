@@ -1,0 +1,37 @@
+PODS:
+  - backendless_sdk (0.0.1):
+    - BackendlessSwift (= 5.7.13)
+    - Flutter
+  - BackendlessSwift (5.7.13):
+    - Socket.IO-Client-Swift
+  - Flutter (1.0.0)
+  - Socket.IO-Client-Swift (15.2.0):
+    - Starscream (~> 3.1)
+  - Starscream (3.1.1)
+
+DEPENDENCIES:
+  - backendless_sdk (from `.symlinks/plugins/backendless_sdk/ios`)
+  - Flutter (from `Flutter`)
+
+SPEC REPOS:
+  trunk:
+    - BackendlessSwift
+    - Socket.IO-Client-Swift
+    - Starscream
+
+EXTERNAL SOURCES:
+  backendless_sdk:
+    :path: ".symlinks/plugins/backendless_sdk/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  backendless_sdk: 65c3adb05822b1fab1bb96f7ce4726d844b3d360
+  BackendlessSwift: 3568d586783d735e50035d0c4ea4571e663c38df
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.9.3
